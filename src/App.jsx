@@ -44,9 +44,9 @@ const App = () => {
   };
   return (
     <div className="flex max-w-full items-center justify-center">
-      <div className="mr-auto flex w-full flex-col items-center justify-center gap-4 font-bold">
-        <h1 className="text-center text-black">Quiz App</h1>
-        <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-slate-500 p-4 text-white">
+      <div className="mr-auto flex w-full flex-col items-center justify-center gap-2 font-bold">
+        <h1 className="text-center text-3xl text-black">Quiz App</h1>
+        <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-slate-500 p-8 text-white ">
           {isQuizFinished ? (
             <QuestionEndDisplay
               correctCount={correctCount}
